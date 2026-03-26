@@ -59,7 +59,10 @@ cat "$OUT"
 # 3. Call grenedalf .sync file from the mpileup:
 
 ````
-TBD
+/mnt/d/xQTL_2025_Data/Final_Window_Analysis/OutdoorSample_CVTK/input_files/grenedalf/grenedalf/bin/grenedalf sync --pileup-path E_all.mpileup --reference-genome-fasta /mnt/d/
+xQTL_2025_Data/ref/dm6_nochr.fa --filter-sample-min-read-depth 10 --filter-sample-max-read-depth 1000 --filter-sample-on
+ly-biallelic-snps --filter-region [2L,2R,3L,3R,X] --out-dir ../CVTK/ --threads 32
+
 ````
 
 
